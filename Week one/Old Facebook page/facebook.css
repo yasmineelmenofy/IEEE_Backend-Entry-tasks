@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: linear-gradient(to top, 	#8b9dc3, #ffffff);
+}
+header {
+  background-color: #3b5998;
+  padding: 12px 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+}
+
+.name h1 {
+  font-size: 40px;
+  margin: 0;
+  font-weight: bold;
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+  letter-spacing: -1px;
+  padding-left: 100px;    
+  padding-top: 20px; 
+}
+
+.fields {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  color: white;
+}
+
+.fields input {
+  padding: 5px;
+  font-size: 12px;
+  border: 1px solid #1d2a5b;
+  border-radius: 2px;
+  background-color: white;
+}
+
+.fields button {
+  background-color: #4267B2;
+  color: white;
+  font-size: 12px;
+  padding: 4px 10px;
+  font-weight: bold;
+  border: 1px solid #29487d;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.choose {
+  display: flex;
+  flex-direction: column;
+  font-size: 11px;
+  color: white;
+  margin-left: 5px;
+  margin-top: -5px;
+}
+
+.choose a {
+  color: #d8e4f1;
+  text-decoration: none;
+}
+
+main {
+  padding: 40px 20px;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 50px;
+  max-width: 1000px;
+  margin: auto;
+  padding: 50px 20px;
+}
+
+.left-panel {
+  flex: 1;
+  max-width: 500px;
+}
+
+.left-panel h2 {
+  font-size: 25px;
+  color: #0e385f;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.left-panel img {
+  width: 100%;
+  max-width: 500px;
+}
+
+.right-panel {
+  flex: 1;
+  max-width: 500px;
+  border-radius: 6px;
+}
+
+.right-panel h2 {
+  margin-top: -30px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #333;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.signup-form input,
+.signup-form select {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #bdc7d8;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+}
+
+.birthday-select {
+  display: flex;
+  gap: 10px;
+}
+
+.gender {
+  display: flex;
+  gap: 20px;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.signup-btn {
+  background-color: #69a74e;
+  color: white;
+  border: 1px solid #3b6e22;
+  font-size: 16px;
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.terms {
+  font-size: 11px;
+  color: #777;
+  margin-top: 10px;
+}
+
+.terms a {
+  color: #385898;
+  text-decoration: none;
+}
