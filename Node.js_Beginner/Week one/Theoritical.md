@@ -13,6 +13,6 @@ arr.sort();
 - .sort() converts everything to strings and sorts lexicographically by default.
   so to solve the problem 
   ```js
-arr.sort((a, b) => a - b);
-console.log(arr); // [5, 10, 11]
-```
+  arr.sort((a, b) => a - b);
+  console.log(arr); // [5, 10, 11]
+  ```
