@@ -10,7 +10,7 @@
 
 ### Compare the two methods of creating a new function in JavaScript: Function Declaration and Function Expression. Discuss the differences between them in terms of hoisting and provide examples for each
 
- -**Function Declaration**: A function declaration declares a function with a function keyword. 
+ - **Function Declaration**: A function declaration declares a function with a function keyword. 
  The function declaration must have a function name.
  Function declaration does not require a variable assignment.
  These are executed before any other code.
@@ -23,7 +23,7 @@
   console.log("Hello!");
  }
  ```
- -**Function Expression**:
+ - **Function Expression**:
  A function expression is similar to a function declaration without the function name.
  Function expressions can be stored in a variable assignment.
  Function expressions load and execute only when the program interpreter reaches the line of code
