@@ -45,30 +45,31 @@
  Their independence from external states makes them highly reusable.
 
 
-### Write down the array methods that you have studied and classify them to destructive and not destructive.
- - **Destructive Methods**: That method change the original array
- push() – adds elements to the end.
- pop() – removes the last element.
- shift() – removes the first element.
- unshift() – adds elements to the beginning.
- splice() – adds/removes/replaces elements at specific positions.
- sort() – sorts the array in place.
- reverse() – reverses the order in place.
+### Write down the array methods that you have studied and classify them to destructive and non-destructive.
 
- - **Non-Destructive Methods**: They do not change the original array 
- slice() – returns a shallow copy of a portion.
- concat() – merges arrays into a new one.
- map() – returns a new array with modified values.
- filter() – returns a new array with filtered values.
- reduce() – reduces the array to a single value (original unchanged).
- find() – returns the first matching element.
- findIndex() – returns the index of the first match.
- includes() – checks if an element exists (returns boolean).
- indexOf() – returns the first index of a given element.
- every() – checks if all elements pass a test.
- some() – checks if some elements pass a test.
- join() – joins all elements into a string.
- flat() – returns a new flattened array.
+**Destructive Methods**: These methods change the original array  
+push() – adds elements to the end.  
+pop() – removes the last element.  
+shift() – removes the first element.  
+unshift() – adds elements to the beginning.  
+splice() – adds/removes/replaces elements at specific positions.  
+sort() – sorts the array in place.  
+reverse() – reverses the order in place.  
+
+**Non-Destructive Methods**: They do not change the original array  
+slice() – returns a shallow copy of a portion.  
+concat() – merges arrays into a new one.  
+map() – returns a new array with modified values.  
+filter() – returns a new array with filtered values.  
+reduce() – reduces the array to a single value (original unchanged).  
+find() – returns the first matching element.  
+findIndex() – returns the index of the first match.  
+includes() – checks if an element exists (returns boolean).  
+indexOf() – returns the first index of a given element.  
+every() – checks if all elements pass a test.  
+some() – checks if some elements pass a test.  
+join() – joins all elements into a string.  
+flat() – returns a new flattened array.  
 
 
 
